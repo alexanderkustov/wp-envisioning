@@ -193,3 +193,74 @@ padding-right: 30px;
 padding-left: 30px;
 padding-top: 30px;
 }
+
+
+
+.consumer-kind {
+min-height: 230px;
+padding: 10px;
+background-color: #fcfbf7;
+color: inherit;
+border-radius: 10px;
+}
+.consumer-kind .consumer-kind-header {
+padding: 10px;
+padding-top: 5px;
+margin-left: -10px;
+padding-bottom: 0px;
+margin-bottom: 10px;
+width: 100%;
+float: left;
+}
+.grad1 {
+background: #5db9cd;
+background: -moz-linear-gradient(45deg, #5db9cd 0%, #77b8ae 100%);
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #5db9cd), color-stop(100%, #77b8ae));
+background: -webkit-linear-gradient(45deg, #5db9cd 0%, #77b8ae 100%);
+background: -o-linear-gradient(45deg, #5db9cd 0%, #77b8ae 100%);
+background: -ms-linear-gradient(45deg, #5db9cd 0%, #77b8ae 100%);
+background: linear-gradient(45deg, #5db9cd 0%, #77b8ae 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5db9cd', endColorstr='#77b8ae', GradientType=1);
+}
+.grad2 {
+background: #e6717c;
+background: -moz-linear-gradient(45deg, #e6717c 0%, #bec340 100%);
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #e6717c), color-stop(100%, #bec340));
+background: -webkit-linear-gradient(45deg, #e6717c 0%, #bec340 100%);
+background: -o-linear-gradient(45deg, #e6717c 0%, #bec340 100%);
+background: -ms-linear-gradient(45deg, #e6717c 0%, #bec340 100%);
+background: linear-gradient(45deg, #e6717c 0%, #bec340 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6717c', endColorstr='#bec340', GradientType=1);
+}
+.grad3 {
+background: #bec340;
+background: -moz-linear-gradient(45deg, #bec340 0%, #77b8ae 100%);
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #bec340), color-stop(100%, #77b8ae));
+background: -webkit-linear-gradient(45deg, #bec340 0%, #77b8ae 100%);
+background: -o-linear-gradient(45deg, #bec340 0%, #77b8ae 100%);
+background: -ms-linear-gradient(45deg, #bec340 0%, #77b8ae 100%);
+background: linear-gradient(45deg, #bec340 0%, #77b8ae 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bec340', endColorstr='#77b8ae', GradientType=1);
+}
+
+.consumer-kind .consumer-kind-header h1 {
+font-size: 38px;
+line-height: 40px;
+text-align: center;
+color:white;
+}
+
+.consumer-kind ul {
+clear: both;
+list-style: none;
+text-align: center;
+margin-left: 0px;
+padding-left: 20px;
+padding-right: 20px;
+}
+.consumer-kind ul li {
+border-bottom: 1px solid #b2c8cd;
+color: #363537;
+padding-bottom: 10px;
+padding-top: 10px;
+}

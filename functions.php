@@ -249,7 +249,7 @@ add_filter( 'the_content', 'shortcode_unautop',100 );
 add_shortcode("container", "container");
 add_shortcode("row", "row");
 add_shortcode("span", "span");
-
+add_shortcode("card", "card");
 
 function row($atts, $content = null) {
     extract(shortcode_atts(array(
@@ -266,9 +266,6 @@ function container($atts, $content = null) {
     return '<div class="container">'.$content.'</div>';
 }
 
-
-
-
 function span($atts, $content = null) {
     extract(shortcode_atts(array(
         "bg" => '',
@@ -278,6 +275,30 @@ function span($atts, $content = null) {
      $content = do_shortcode($content);
     return '<div class="col-md-'.$col.'" style="background-image:url('.$bg.'); background-size:cover; background-color:'.$color.';">'.$content.'</div>';
 }
+
+function card($atts, $content = null) {
+    extract(shortcode_atts(array(
+        "grad" => '1',
+        "title" => '',
+        "one" => '',
+        "two" => '',
+        "three" => '',
+        "four" => '',
+    ), $atts));
+     $content = do_shortcode($content);
+    return '<div class="consumer-kind">
+				<div class="consumer-kind-header grad'.$grad.'">
+					<h1>'.$title.'</h1>
+				</div>
+				<ul>
+					<li>'.$one.'</li>
+					<li>'.$two.'</li>
+					<li>'.$three.'</li>
+					<li>'.$four.'</li>
+				</ul>
+			</div>';
+}
+
 
 
 

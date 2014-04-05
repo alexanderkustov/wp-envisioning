@@ -3,6 +3,14 @@ __A Wordpress starter theme based on Bones and Bootstrap 3__
 
 ![Envisioning](screenshot.png)
 
+Some Shortcodes for you:
+* [row bg="" color=""] - Creates a full-width row that can have division in it, called spans, can have a background-image passed by bg="x.jpg" or background color passed by color="#FFFFFF".
+* [span col="" bg="" color=""] - Has a width ranging form 12 columsn to 1, by specifying col=""
+* [container] - creates a centered layout for rows, so they are not full widthed.
+* [card grad="" title="" one="" two="" three="" four=""] - Creates a type of card seen on the front page, we have three gradients right now.
+
+
+
 
 Features:
 * LESS

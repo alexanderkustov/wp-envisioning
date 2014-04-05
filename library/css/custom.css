@@ -134,9 +134,20 @@ line-height: 1.722169;
 }
 
 
+#fund-share {
+background-color: #cfa24f;
+}
+
+#fund-r-share {
+background-color: #79a4cf;
+}
 
 #tap-share {
 background-color: #cb6a6b;
+}
+
+#donate-share {
+background-color: #8ab0b0;
 }
 
 .donate {

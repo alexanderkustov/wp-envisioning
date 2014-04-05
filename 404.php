@@ -28,7 +28,7 @@
 
 							<footer class="article-footer">
 
-									<p>Look, I can see you're really upset about this. I honestly think you ought to sit down calmly, take a stress pill, and think things over. </p>
+									<p>Look, I can see you're really upset about this. I honestly think you ought to sit down calmly, and think things over. </p>
 
 							</footer> <?php // end article footer ?>
 

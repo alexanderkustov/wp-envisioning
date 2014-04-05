@@ -4,6 +4,11 @@ body{
 	color: white;
 }
 
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
 a {
 color: #e6717c;
 text-decoration: none;

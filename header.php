@@ -54,7 +54,9 @@
                 <span class="icon-bar"></span>
               </button>
 
-              <a class="navbar-brand" href="<?php bloginfo( 'url' ) ?>/" title="<?php bloginfo( 'name' ) ?>" rel="homepage"><?php bloginfo('name'); ?></a>
+              <a class="navbar-brand" href="<?php bloginfo( 'url' ) ?>/" title="<?php bloginfo( 'name' ) ?>" rel="homepage">
+              	<h1 class="headertype">Envisioning</h1>
+              </a>
 
             </div>
 

@@ -59,6 +59,20 @@ body{
 	color: white;
 }
 
+a {
+color: #e6717c;
+text-decoration: none;
+-webkit-transition: 0.25s;
+-moz-transition: 0.25s;
+-o-transition: 0.25s;
+transition: 0.25s;
+-webkit-backface-visibility: hidden;
+}
+
+.donate-share a {
+color: white;
+}
+
 .navbar {
 height: 70px;
 }

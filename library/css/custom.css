@@ -1,7 +1,12 @@
 @import url(fonts.css);
 
 body{
-	color: white;
+adding-top: 60px;
+-webkit-font-smoothing: antialiased;
+background-image: url('../images/bg_branco_trsp.png');
+font-family: lexiaregular;
+position: relative;
+color: white;
 }
 
 html {
@@ -104,6 +109,149 @@ line-height: 1.722169;
   margin-left: 0px;
   margin-right: 0px;
 }
+
+#hero-report {
+	min-height: 750px;
+	width: 100%;
+	background-image: url('../images/ipad_splash.jpg');
+	background-size: auto 100%;
+	background-position: right center;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+
+#more {
+position: relative;
+-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+background-color: #5db9cd;
+background-repeat: no-repeat;
+background-size: contain;
+color: white;
+}
+
+#use {
+background-image: url('../images/bg_pat1.png');
+background-color: #363537;
+}
+
+#network {
+background-image: url('../images/network_logo.png');
+background-repeat: no-repeat;
+background-position-y: 30%;
+}
+
+#donate, #network {
+padding-top: 50px;
+padding-bottom: 50px;
+position: relative;
+-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+background-color: #5db9cd;
+color: white;
+}
+
+#timeline_splash {
+position: relative;
+-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+background-image: url('../images/bg_pat1.png');
+background-color: #363537;
+overflow: hidden;
+}
+
+#about {
+background-color: #952c1c;
+}
+.blowout {
+width: 100%;
+}
+
+#vision {
+background-image: url('../images/bg_pat1.png');
+background-color: #363537;
+}
+
+#collab {
+background-image: url('../images/collaborators_bg_2x.png');
+background-size: auto;
+}
+
+#board {
+background-image: url('../images/advisors.png');
+background-size: auto;
+}
+
+#michell {
+background-image: url('../images/mz_bg_2x.jpg');
+background-size: cover;
+background-position-y: 50%;
+background-repeat: no-repeat;
+}
+
+#press {
+background-image: url('../images/bg_pat1.png');
+}
+
+#board, #collab {
+position: relative;
+-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+-moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+#board .imagem_perfil, #collab .imagem_perfil {
+width: 100%;
+height: 270px;
+overflow: hidden;
+}
+
+#board .imagem_perfil_wrapper, #collab .imagem_perfil_wrapper {
+min-width: 120%;
+position: relative;
+left: -10%;
+top: -5%;
+}
+
+#board .span3 h2, #collab .span3 h2 {
+font-family: denseregular;
+text-transform: uppercase;
+font-size: 33px;
+line-height: 30px;
+color: #363537;
+margin-bottom: 5px;
+text-align: center;
+}
+
+#board .span3 h3, #collab .span3 h3 {
+font-size: 13px;
+font-family: lexiaregular;
+text-transform: none;
+font-weight: normal;
+color: #555356;
+margin-top: 0px;
+text-align: center;
+}
+
+#board .span3 .shareperfil, #collab .span3 .shareperfil {
+margin-top: 10px;
+text-align: center;
+}
+
+#board .span3 p, #collab .span3 p {
+font-size: 14px;
+color: #363537;
+line-height: 20px;
+padding-right: 20px;
+padding-left: 20px;
+text-align: center;
+margin-top: 10px;
+}
+
 
 
 #fund-share {
@@ -221,6 +369,12 @@ margin-bottom: 10px;
 width: 100%;
 float: left;
 }
+
+#use .consumer-kind .consumer-kind-header h1 span {
+font-size: 30px;
+padding-right: 10px;
+}
+
 .grad1 {
 background: #5db9cd;
 background: -moz-linear-gradient(45deg, #5db9cd 0%, #77b8ae 100%);

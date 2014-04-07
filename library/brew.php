@@ -1,13 +1,9 @@
 <?php
 /*
-Author: Dan Brown
-URL: danvswild.com
-
-Just pulling together all the various functions needed for BREW.  
+Author: Alexander Kustov
+URL: alexanderkustov.com
 */
 
-
-// Read more text > bootstrap button
 
 function my_more_link( $link, $link_button ) {
             
@@ -255,9 +251,5 @@ function brew_contact_methods( $contactmethods ) {
  
 add_filter( 'user_contactmethods', 'brew_contact_methods' );
 
-
-/*
-my mind is going. I can feel it
-*/
 
 ?>

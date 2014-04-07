@@ -1,3 +1,60 @@
+* {
+-webkit-font-smoothing: antialiased;
+}
+@font-face {
+  font-family: 'lexiaregular';
+  src: url('fonts/dalton_maag_-_lexia_bold_italic-webfont.eot');
+  src: url('fonts/dalton_maag_-_lexia_bold_italic-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/dalton_maag_-_lexia_bold_italic-webfont.woff') format('woff'), url('fonts/dalton_maag_-_lexia_bold_italic-webfont.ttf') format('truetype'), url('fonts/dalton_maag_-_lexia_bold_italic-webfont.svg#lexiabold_italic') format('svg');
+  font-weight: 700;
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'lexiaregular';
+  src: url('fonts/dalton_maag_-_lexia_bold-webfont.eot');
+  src: url('fonts/dalton_maag_-_lexia_bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/dalton_maag_-_lexia_bold-webfont.woff') format('woff'), url('fonts/dalton_maag_-_lexia_bold-webfont.ttf') format('truetype'), url('fonts/dalton_maag_-_lexia_bold-webfont.svg#lexiabold') format('svg');
+  font-weight: 700;
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'lexiaregular';
+  src: url('fonts/dalton_maag_-_lexia_italic-webfont.eot');
+  src: url('fonts/dalton_maag_-_lexia_italic-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/dalton_maag_-_lexia_italic-webfont.woff') format('woff'), url('fonts/dalton_maag_-_lexia_italic-webfont.ttf') format('truetype'), url('fonts/dalton_maag_-_lexia_italic-webfont.svg#lexiaitalic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'lexiaregular';
+  src: url('fonts/dalton_maag_-_lexia-webfont.eot');
+  src: url('fonts/dalton_maag_-_lexia-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/dalton_maag_-_lexia-webfont.woff') format('woff'), url('fonts/dalton_maag_-_lexia-webfont.ttf') format('truetype'), url('fonts/dalton_maag_-_lexia-webfont.svg#lexiaregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'lexiaregular';
+  src: url('fonts/dalton_maag_-_lexia_light-webfont.eot');
+  src: url('fonts/dalton_maag_-_lexia_light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/dalton_maag_-_lexia_light-webfont.woff') format('woff'), url('fonts/dalton_maag_-_lexia_light-webfont.ttf') format('truetype'), url('fonts/dalton_maag_-_lexia_light-webfont.svg#lexialight') format('svg');
+  font-weight: lighter;
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'denseregular';
+  src: url('fonts/dense-regular-webfont.eot');
+  src: url('fonts/dense-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/dense-regular-webfont.woff') format('woff'), url('fonts/dense-regular-webfont.ttf') format('truetype'), url('fonts/dense-regular-webfont.svg#denseregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'denseregular';
+  src: url('fonts/dense-bold-webfont.eot');
+  src: url('fonts/dense-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/dense-bold-webfont.woff') format('woff'), url('fonts/dense-bold-webfont.ttf') format('truetype'), url('fonts/dense-bold-webfont.svg#densebold') format('svg');
+  font-weight: 700;
+  font-weight: bold;
+  font-style: normal;
+}
+
 @font-face {
   font-family: 'Flat-UI-Icons';
   src: url('fonts/Flat-UI-Icons.eot');
@@ -563,64 +620,4 @@ you can use the generic selector below, but it's slower:
 }
 .fui-networks:before {
   content: "\e084";
-}
-
-
-
-
-@font-face {
-  font-family: 'lexiaregular';
-  src: url('fonts/dalton_maag_-_lexia_bold_italic-webfont.eot');
-  src: url('fonts/dalton_maag_-_lexia_bold_italic-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/dalton_maag_-_lexia_bold_italic-webfont.woff') format('woff'), url('fonts/dalton_maag_-_lexia_bold_italic-webfont.ttf') format('truetype'), url('fonts/dalton_maag_-_lexia_bold_italic-webfont.svg#lexiabold_italic') format('svg');
-  font-weight: 700;
-  font-weight: bold;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'lexiaregular';
-  src: url('fonts/dalton_maag_-_lexia_bold-webfont.eot');
-  src: url('fonts/dalton_maag_-_lexia_bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/dalton_maag_-_lexia_bold-webfont.woff') format('woff'), url('fonts/dalton_maag_-_lexia_bold-webfont.ttf') format('truetype'), url('fonts/dalton_maag_-_lexia_bold-webfont.svg#lexiabold') format('svg');
-  font-weight: 700;
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'lexiaregular';
-  src: url('fonts/dalton_maag_-_lexia_italic-webfont.eot');
-  src: url('fonts/dalton_maag_-_lexia_italic-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/dalton_maag_-_lexia_italic-webfont.woff') format('woff'), url('fonts/dalton_maag_-_lexia_italic-webfont.ttf') format('truetype'), url('fonts/dalton_maag_-_lexia_italic-webfont.svg#lexiaitalic') format('svg');
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'lexiaregular';
-  src: url('fonts/dalton_maag_-_lexia-webfont.eot');
-  src: url('fonts/dalton_maag_-_lexia-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/dalton_maag_-_lexia-webfont.woff') format('woff'), url('fonts/dalton_maag_-_lexia-webfont.ttf') format('truetype'), url('fonts/dalton_maag_-_lexia-webfont.svg#lexiaregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'lexiaregular';
-  src: url('fonts/dalton_maag_-_lexia_light-webfont.eot');
-  src: url('fonts/dalton_maag_-_lexia_light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/dalton_maag_-_lexia_light-webfont.woff') format('woff'), url('fonts/dalton_maag_-_lexia_light-webfont.ttf') format('truetype'), url('fonts/dalton_maag_-_lexia_light-webfont.svg#lexialight') format('svg');
-  font-weight: lighter;
-  font-weight: 300;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'denseregular';
-  src: url('fonts/dense-regular-webfont.eot');
-  src: url('fonts/dense-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/dense-regular-webfont.woff') format('woff'), url('fonts/dense-regular-webfont.ttf') format('truetype'), url('fonts/dense-regular-webfont.svg#denseregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'denseregular';
-  src: url('fonts/dense-bold-webfont.eot');
-  src: url('fonts/dense-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/dense-bold-webfont.woff') format('woff'), url('fonts/dense-bold-webfont.ttf') format('truetype'), url('fonts/dense-bold-webfont.svg#densebold') format('svg');
-  font-weight: 700;
-  font-weight: bold;
-  font-style: normal;
-}
-* {
--webkit-font-smoothing: antialiased;
 }

@@ -134,6 +134,9 @@ function bones_scripts_and_styles() {
 
     // register main stylesheet
     wp_register_style( 'bones-stylesheet', get_template_directory_uri() . '/library/css/style.css', array(), '', 'all' );
+    wp_register_style( 'flat-stylesheet', get_template_directory_uri() . '/library/css/flat.css', array(), '', 'all' );
+    wp_register_style( 'font-stylesheet', get_template_directory_uri() . '/library/css/fonts.css', array(), '', 'all' );
+
     wp_register_style( 'custom-stylesheet', get_template_directory_uri() . '/library/css/custom.css', array(), '', 'all' );
 
     // ie-only style sheet
@@ -156,6 +159,8 @@ function bones_scripts_and_styles() {
     // enqueue styles and scripts
     wp_enqueue_script( 'bones-modernizr' );
     wp_enqueue_style( 'bones-stylesheet' );
+    wp_enqueue_style( 'flat-stylesheet' );
+    wp_enqueue_style( 'font-stylesheet' );
     wp_enqueue_style( 'custom-stylesheet' );
 
     wp_enqueue_style( 'bones-ie-only' );
